@@ -1,6 +1,6 @@
 # Vijay Internship and Training Partner
 
-This is a website for **Vijay Internship and Training Partner**, which offers various internship opportunities, training programs, and placement support for students and professionals. The website includes features such as course listings, contact forms, payment gateway integration, and more.
+The website includes features such as course listings, contact forms, payment gateway integration, and more.
 
 ## Features
 
