@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Internship and Training Partner</title>
+    <style>
+        /* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #b95804, #ffa200);
+    color: #fff;
+}
+
+/* Landing Page Styles */
+.landing-page {
+    text-align: center;
+}
+
+.welcome-message {
+    font-size: 2rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.highlight {
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        color: #0014f5;
+    }
+    50% {
+        color: #13fd23;
+    }
+}
+
+.get-started {
+    background-color: #023e8a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.get-started:hover {
+    background-color: #0077b6;
+    transform: scale(1.1);
+}
+
+    </style>
+</head>
+<body>
+    <div class="landing-page">
+        <h1 class="welcome-message">
+            Welcome to 
+            <span class="highlight">Vijay Internship and Training Partner</span><br>CREATED BY VIJAY(311823104053)
+        </h1>
+        <button id="get-started-button" class="get-started">Get Started</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
